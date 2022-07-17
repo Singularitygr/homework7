@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo1 {
+    max-width: 480px;
+    max-height: 270px;
+}
+
+nav {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+}
+
+.navlinks {
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.block {
+    flex-grow: 1;
+    width: calc(33% - 1em);
+    margin: 0.5em;
+}
+
+.skillname {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.skilldescr {
+    font-size: 40px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.blockimg {
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+footer {
+    font-size: 60px;
+    margin-top: 0.5rem;
+}
+
+header {
+    margin: 0.5em;
+}
