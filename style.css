@@ -29,9 +29,9 @@ a {
     text-align: center;
 }
 
-#logo1 {
-    max-width: 480px;
-    max-height: 270px;
+.logo1 {
+    max-width: 800px;
+    max-height: 300px;
 }
 
 nav {
@@ -50,7 +50,7 @@ footer {
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -59,7 +59,7 @@ footer {
 
 .block {
     flex-grow: 1;
-    width: calc(33% - 1em);
+    width: calc(33.33% - 3em);
     margin: 0.5em;
 }
 
