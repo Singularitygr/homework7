@@ -4,7 +4,6 @@
 
 body {
     background-color: black;
-    margin: 0;
 }
 
 main {
@@ -59,7 +58,7 @@ footer {
 
 .block {
     flex-grow: 1;
-    width: calc(33.33% - 3em);
+    flex-basis: calc(33.33% - 3em);
     margin: 0.5em;
 }
 
